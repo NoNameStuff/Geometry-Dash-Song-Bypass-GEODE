@@ -1,0 +1,45 @@
+{
+	"geode": "3.2.0",
+	"gd": {
+		"win": "2.206",
+		"android": "2.206",
+		"mac": "2.206",
+		"ios": "2.206"
+	},
+	"id": "nonamestuff.song_bypass",
+	"name": "Song Bypass",
+	"version": "v1.0.0",
+	"developer": "NoNameStuff",
+	"description": "Lets you download songs that are banned.",
+	"tags": [
+		"utility",
+		"music",
+		"online"
+	],
+	"links": {
+		"source": "https://github.com/NoNameStuff/Geometry-Dash-Song-Bypass-GEODE",
+ 		"community": "https://discord.gg/NR66A8bcHs"
+	},
+	"dependencies": [
+		{
+			"id": "geode.node-ids",
+			"version": ">=v1.12.0",
+			"importance": "required"
+ 		}
+	],
+	"settings": {
+		"is-enabled": {
+			"name": "Is Enabled",
+			"description": "Disable/Enable the mod without having to restart Geometry Dash.",
+			"type": "bool",
+			"default": true
+		},
+		"auto-download": {
+			"name": "Auto Download",
+			"description": "Attempts to download the song as soon as the level page loads.",
+			"type": "bool",
+			"default": false
+		}
+	}
+
+}
